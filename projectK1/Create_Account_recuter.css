@@ -1,0 +1,135 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    background: linear-gradient(to right, rgba(235, 235, 19, 0.75),yellowgreen);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.logo{
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 650px;
+    height: 425px;
+    cursor:pointer;
+    filter: drop-shadow(6px 6px 4px #000);
+}
+
+
+.loginbox{
+    width: 350PX;
+    height: 500px;
+    background-color:#000;
+    color: #fff;
+    top: 50%;
+    left: 75%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    z-index: 1;
+    box-shadow: white;
+    /* box-shadow: 6px 6px 4px black,-6px -6px 4px black; */
+    filter: drop-shadow(6px 6px 4px black);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+/* Hiding the radio inputs: */
+input[type=radio] {
+    display: none;
+}
+/* styling the spans adjacent to the radio inputs: */
+input[type=radio] + span {
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 0.5em;
+}
+/* styling the span following the checked radio: */
+input[type=radio]:checked + span {
+    background-color: #ffa;
+}
+/* defining the height/width for the span-radio: */
+.radio1 {
+    width: 0.5em;
+    height: 0.5em;
+}
+/* and so on... */
+.loginbox input
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: yellow;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input:hover
+{
+    cursor: pointer;
+    background-color: rgba(19, 235, 134, 0.75);
+    color: #fff;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+
+}
+.loginbox .hover {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+
+}
+.loginbox .hover:hover
+{   
+    background-color: rgba(235, 235, 19,0.75);
+}
+
+.checkbox{
+    align-items: left;
+
+}
+
+.dropbtn {
+    background-color: #000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    }
+    
